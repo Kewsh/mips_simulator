@@ -30,7 +30,7 @@ public class Sample {
         Multiplexer[] AluSrc = new Multiplexer[32];
         Multiplexer[] choosePcOrALU = new Multiplexer[32] ;
         SignExtend signExtend = new SignExtend("signExtend" , "16x32") ;
-        shiftLeft32Bit shiftleft32 = new shiftLeft32Bit("shiftleft32" ,"32x32") ;
+        ShiftLeft32Bit shiftleft32 = new ShiftLeft32Bit("shiftleft32" ,"32x32") ;
 
 
         DFlipFlop[] PC = new DFlipFlop[32];
