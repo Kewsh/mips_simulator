@@ -3,6 +3,11 @@ package simulator.wrapper.wrappers;
 import simulator.network.Link;
 import simulator.wrapper.Wrapper;
 
+/*
+ * Register has 33 bits of input, consisting of:
+ * 32 bits of data (0-31)
+ * 1 bit for clock (32)
+ */
 public class Register extends Wrapper{
 
     private DFlipFlop[] register;
