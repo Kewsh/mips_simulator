@@ -14,15 +14,16 @@ import simulator.gates.combinational.And;
  */
 public class RegisterFile extends Wrapper{
 
-    private Register[] regArray;
 
     public RegisterFile(String label, String stream, Link... links){
         super(label, stream, links);
-        regArray = new Register[32];
     }
 
     @Override
     public void initialize() {
+
+        Register[] regArray = new Register[32] ;
+
         for (int i = 0; i < 32; i++)
             regArray[i] = new Register("Reg" + i, "33x32");
 

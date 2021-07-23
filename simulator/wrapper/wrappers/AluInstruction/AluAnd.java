@@ -15,7 +15,7 @@ public class AluAnd extends Wrapper{
 
         And[] ands = new And[32];
 
-        for (int i = 0; i < 31; i++) {
+        for (int i = 0; i < 32; i++) {
             ands[i] = new And("AND" + (i + 1));
             ands[i].addInput(getInput(i), getInput(32 + i));
             addOutput(ands[i].getOutput(0));
