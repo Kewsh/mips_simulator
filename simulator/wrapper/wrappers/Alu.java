@@ -1,6 +1,6 @@
 package simulator.wrapper.wrappers;
 
-import AluInstruction.*;
+import simulator.wrapper.wrappers.AluInstruction.*;
 import simulator.control.Simulator;
 import simulator.gates.combinational.Or;
 import simulator.network.Link;
