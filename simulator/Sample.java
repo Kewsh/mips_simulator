@@ -99,7 +99,7 @@ public class Sample {
 
 
 //        // shift left [0-25]
-        shiftLeft shiftleft1 = new shiftLeft("shiftleft1" , "26x28") ;
+        ShiftLeft shiftleft1 = new ShiftLeft("shiftleft1" , "26x28") ;
         for(int i = 0 ; i < 26 ; i++){
             shiftleft1.addInput(InstMem.getOutput(i)) ;
         }
